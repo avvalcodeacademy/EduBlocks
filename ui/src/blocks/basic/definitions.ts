@@ -6,7 +6,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Imports the edupy library.');
+      this.setTooltip('وارد کردن کتابخانه از edupy');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -18,7 +18,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Imports the signal library.');
+      this.setTooltip('واردمردن کتابخانه سیگنال');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -30,7 +30,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Pause');
+      this.setTooltip('مکث');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -42,7 +42,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Imports the random library.');
+      this.setTooltip('واردکردن کتابخانه شانس');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -56,7 +56,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Forever loop.');
+      this.setTooltip('تکرار بینهایت');
       this.setHelpUrl('https://t.co/PCZC5EFe4D');
     },
   };
@@ -68,7 +68,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Pass to the next command');
+      this.setTooltip('رفتن به دستور بعدی');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -84,7 +84,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('If Statement.');
+      this.setTooltip('دستور اگر');
       this.setHelpUrl('');
     },
   };
@@ -98,7 +98,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Use this to print a variable.');
+      this.setTooltip('برای چاپ کردن از این دستور استفاده کنید');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -116,7 +116,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('If statement with greater and less than');
+      this.setTooltip('دستور اگر برای کوچکتر و بزرگتر از');
       this.setHelpUrl('');
     },
   };
@@ -149,7 +149,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setNextStatement(true, null);
       this.setColour(336);
       this.setTooltip('');
-      this.setHelpUrl('Create a for loop');
+      this.setHelpUrl('ایجاد حلقه تکرار');
     },
   };
 
@@ -223,7 +223,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(false, null);
       this.setColour(336);
-      this.setTooltip('Elif Statement.');
+      this.setTooltip('دستور اگرنه');
       this.setHelpUrl('');
     },
   };
@@ -237,7 +237,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(false, null);
       this.setColour(336);
-      this.setTooltip('Else statement');
+      this.setTooltip('دستور وگرنه');
       this.setHelpUrl('https://t.co/PCZC5EFe4D');
     },
   };
@@ -250,7 +250,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Trigger a define function');
+      this.setTooltip('ایحاد یک تابع');
       this.setHelpUrl('');
     },
   };
@@ -278,7 +278,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Imports the time library.');
+      this.setTooltip('واردکردن کتابخانه زمان');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -290,7 +290,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Imports the math library.');
+      this.setTooltip('وارد کردن کتابخانه ریاضی');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -304,7 +304,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Wait for a given amount of seconds.');
+      this.setTooltip('به مدت زمان (ثانیه) منتظر می ماند');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -318,7 +318,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Use this to print to the output box.');
+      this.setTooltip('از این دستور برای چاپ دستور خروجی استفاده کنید');
       this.setHelpUrl('http://www.example.com/');
     },
   };
