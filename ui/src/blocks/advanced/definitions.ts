@@ -2,11 +2,11 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
   Blocks['http_client_import_rest'] = {
     init: function () {
       this.appendDummyInput()
-        .appendField('وارد کردن http.client');
+        .appendField('import http.client');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(70);
-      this.setTooltip('Imports the http client library.');
+      this.setTooltip('وارد کردن کتابخانه کلاینت');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -69,7 +69,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(70);
-      this.setTooltip('Get the responce.');
+      this.setTooltip('دریافت  نتیجه');
       this.setHelpUrl('https://docs.python.org/3/library/http.client.html');
     },
   };
@@ -78,7 +78,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     init: function () {
       this.appendValueInput('VALUE')
         .setCheck(['String', 'Number'])
-        .appendField('چاپ');
+        .appendField('print');
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
