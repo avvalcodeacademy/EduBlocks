@@ -1,36 +1,36 @@
 <category name="gpiozero" colour="60">
-  <category name="General" colour="60">
+  <category name="عمومی" colour="60">
     <block type="importgpiozero"></block>
     <block type="importtime"></block>
   </category>
-  <category name="Inputs" colour="196">
-    <category name="Button" colour="196">
+  <category name="ورودی ها" colour="196">
+    <category name="شستی" colour="196">
       <block type="buttonset"></block>
       <block type="buttonaction"></block>
       <block type="buttonvar"></block>
     </category>
-    <category name="Line Sensor" colour="196">
+    <category name="سنسور خط" colour="196">
       <block type="lineset"></block>
       <block type="lineaction"></block>
       <block type="linevar"></block>
     </category>
-    <category name="Motion Sensor" colour="196">
+    <category name="سنسور حرکت" colour="196">
       <block type="motionset"></block>
       <block type="motionaction"></block>
       <block type="motionvar"></block>
     </category>
-    <category name="Light Sensor" colour="196">
+    <category name="سنسور نور" colour="196">
       <block type="lightset"></block>
       <block type="lightaction"></block>
       <block type="lightvar"></block>
     </category>
-    <category name="Distance Sensor" colour="196">
+    <category name="سنسور فاصله" colour="196">
       <block type="distanceset"></block>
       <block type="distanceaction"></block>
       <block type="distancevar"></block>
     </category>
   </category>
-  <category name="Outputs" colour="0">
+  <category name="خروجی ها" colour="0">
     <category name="LED" colour="0">
       <block type="ledset"></block>
       <block type="ledaction"></block>
@@ -46,17 +46,17 @@
       <block type="rgbledaction"></block>
       <block type="rgbledvar"></block>
     </category>
-    <category name="Buzzer" colour="0">
+    <category name="بازر" colour="0">
       <block type="buzzerset"></block>
       <block type="buzzeraction"></block>
       <block type="buzzervar"></block>
     </category>
-    <category name="Motor" colour="0">
+    <category name="موتور" colour="0">
       <block type="motorset"></block>
       <block type="motoraction"></block>
       <block type="motorvar"></block>
     </category>
-    <category name="Servo" colour="0">
+    <category name="موتور سرو" colour="0">
       <block type="servoset"></block>
       <block type="servoaction"></block>
       <block type="servovar"></block>
@@ -67,8 +67,8 @@
       <block type="angvar"></block>
     </category>
   </category>
-  <category name="Boards &amp; Accessories" colour="45">
-    <category name="LEDBoard" colour="45">
+  <category name="بردها و لوازم حانبی" colour="45">
+    <category name="LEDبرد" colour="45">
       <block type="ledbset"></block>
       <block type="ledbaction"></block>
       <block type="ledbvar"></block>
@@ -78,12 +78,12 @@
       <block type="graphaction"></block>
       <block type="graphvar"></block>
     </category>
-    <category name="Button Board" colour="45">
+    <category name="بورد شستی" colour="45">
       <block type="buttonbset"></block>
       <block type="buttonbaction"></block>
       <block type="buttonbvar"></block>
     </category>
-    <category name="Traffic Lights" colour="45">
+    <category name="چراغ راهنمایی" colour="45">
       <block type="trafficset"></block>
       <block type="trafficaction"></block>
       <block type="trafficvar"></block>
@@ -100,16 +100,16 @@
     </category>
   </category>
   <category name="Internal &amp; SPI Devices" colour="150">
-    <category name="Time Of Day" colour="150">
+    <category name="ساعت" colour="150">
       <block type="timeset"></block>
     </category>
     <category name="Ping Server" colour="150">
       <block type="pingset"></block>
     </category>
-    <category name="CPU Temperature" colour="150">
+    <category name="CPU دمای" colour="150">
       <block type="cpuset"></block>
     </category>
-    <category name="Analogue to Digital" colour="150">
+    <category name="آنالوگ به دیجیتال" colour="150">
       <block type="adc"></block>
     </category>
   </category>
