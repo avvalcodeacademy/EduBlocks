@@ -2,7 +2,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
   Blocks['http_client_import_rest'] = {
     init: function () {
       this.appendDummyInput()
-        .appendField('import http.client');
+        .appendField('وارد کردن http.client');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(70);
@@ -15,12 +15,12 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     init: function () {
       this.appendDummyInput()
         .appendField('conn = http.client.HTTPSConnection("')
-        .appendField(new Blockly.FieldTextInput('www.edublocks.org'), 'URL')
+        .appendField(new Blockly.FieldTextInput('www.avvalcode.com'), 'URL')
         .appendField('")');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(70);
-      this.setTooltip('Created a connection');
+      this.setTooltip('ایجاد اتصال');
       this.setHelpUrl('https://docs.python.org/3/library/http.client.html');
     },
   };
@@ -29,14 +29,14 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     init: function () {
       this.appendDummyInput()
         .appendField('conn = http.client.HTTPConnection("')
-        .appendField(new Blockly.FieldTextInput('www.edublocks.org'), 'URL')
+        .appendField(new Blockly.FieldTextInput('www.avvalcode.com'), 'URL')
         .appendField(',')
         .appendField(new Blockly.FieldTextInput('80'), 'PORT')
         .appendField('")');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(70);
-      this.setTooltip('Created a connection');
+      this.setTooltip('ایجاد اتصال');
       this.setHelpUrl('https://docs.python.org/3/library/http.client.html');
     },
   };
@@ -78,7 +78,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
     init: function () {
       this.appendValueInput('VALUE')
         .setCheck(['String', 'Number'])
-        .appendField('print');
+        .appendField('چاپ');
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
