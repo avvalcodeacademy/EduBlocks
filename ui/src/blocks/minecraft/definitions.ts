@@ -7,7 +7,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(false, null);
       this.setNextStatement(true, null);
       this.setColour(270);
-      this.setTooltip('Use this to import minecraft.');
+      this.setTooltip('کتابخانه ماینکرفت را وارد می کند');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -19,7 +19,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(270);
-      this.setTooltip('Use this to connect to minecraft. ALWAYS REQUIRED.');
+      this.setTooltip('برای اتصال به ماینکرفت . همیشه لازم است فعال باشد');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -31,7 +31,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(270);
-      this.setTooltip('Imports the mcpi block library.');
+      this.setTooltip('بلوک های ماینکرفت را اضافه میکند');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -45,7 +45,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Use this to send a message to the Minecraft chat.');
+      this.setTooltip('برای ارسال پیام به ماین کرفت استفاده می شود');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -58,7 +58,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setNextStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Use this set a variable of the players position.');
+      this.setTooltip('برای مقدار دهی به متغیر موقعیت بازیکن در ماینکرفت استفاده می شود');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -72,7 +72,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(336);
-      this.setTooltip('Use this to print a variable.');
+      this.setTooltip('یک مقدار را چاپ میکند');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -90,7 +90,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Set players position');
+      this.setTooltip('تعیین موقعیت بازیکن');
       this.setHelpUrl('');
     },
   };
@@ -108,7 +108,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Use this to set the cameras position');
+      this.setTooltip('تعیین موقعیت دوربین');
       this.setHelpUrl('http://www.example.com/');
     },
   };
@@ -140,7 +140,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Set camera mode.');
+      this.setTooltip('تعیین حالت دوربین');
       this.setHelpUrl('');
     },
   };
@@ -160,7 +160,7 @@ export default function define(Blocks: Blockly.BlockDefinitions) {
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(120);
-      this.setTooltip('Use this to set a block type.');
+      this.setTooltip('تعیین نوع بلوک');
       this.setHelpUrl('http://www.example.com/');
     },
   };
