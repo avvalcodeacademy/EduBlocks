@@ -1,11 +1,11 @@
-<category name="Minecraft" colour="120">
-  <category name="General" colour="270">
+<category name="ماینکرفت" colour="120">
+  <category name="عمومی" colour="270">
     <block type="mcimport"></block>
     <block type="import_block"></block>
     <block type="mcpiblockas"></block>
     <block type="mccreate"></block>
   </category>
-  <category name="Commands" colour="120">
+  <category name="دستورات" colour="120">
     <block type="mcpost"></block>
     <block type="mcpos"></block>
     <block type="setpos"></block>
